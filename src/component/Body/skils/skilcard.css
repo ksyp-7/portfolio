@@ -1,0 +1,32 @@
+.skil-card{
+    width: max-content;
+    padding: 8px 16px;
+    display: flex;
+    height: 120px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 6px;
+    border-radius: 8px;
+    border-color: #39cc9b;
+}
+.skil-icon{
+    font-size: 80px;
+}
+.skil-name{
+    font-size:18px; 
+}
+.skil-img{
+    width: 80px;
+    height: 80px;
+}
+
+@media only screen and (max-width: 720px){
+    .skil-card{
+        width: max-content;
+        height: 100px;
+    }
+    .skil-icon{
+        font-size: 60px;
+    }   
+}

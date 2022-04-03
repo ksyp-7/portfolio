@@ -1,0 +1,26 @@
+html{
+    scroll-behavior: smooth;
+}
+.home{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+ /* .home > div{
+     background-color: #180303;
+     COLOR: #FFFFFF;
+
+} */
+
+@media only screen and (max-width: 1024px){
+    .home{
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 512px){
+    .home{
+        width: 100%;
+    }
+}

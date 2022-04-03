@@ -1,0 +1,27 @@
+.web{
+    align-items: center;
+    display: flex;
+    flex: 1;
+}
+
+.web-option{
+    font-size:24px;
+    margin-right: 16px;
+    font-weight: 700;
+}
+
+.web-option a{
+    text-decoration: none;
+    color: black;
+    display: flex;
+    align-items: center;
+}
+
+.option_icon{
+    display: flex;
+    align-items: center;
+}
+
+.web-option:last-child{
+    margin-right:0;
+}

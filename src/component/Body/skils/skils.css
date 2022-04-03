@@ -1,0 +1,32 @@
+.skils{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+}
+.skil-section{
+    display: flex;
+    justify-content: space-between;
+    margin:  12px 0px;
+}
+.skils-section-title{
+    font-size: 24px;
+    font-weight:600
+}
+.skil-list{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 70%;
+    justify-content: flex-end;
+}
+
+@media only screen and (max-width: 720px){
+    .skil-list{
+        max-width: 100%;
+        justify-content: center;
+    }   
+    .skil-section{
+        flex-direction:column;
+        align-items: center;
+    }
+}
