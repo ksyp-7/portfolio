@@ -49,10 +49,6 @@ export const skils = [
         img: require('../Body/assest/C.png'),
       },
       {
-        name: "C++",
-        img: require('../Body/assest/c++.png'),
-      },
-      {
         name: "PHP",
         icon:   <i class="devicon-php-plain colored"></i>,
       },
