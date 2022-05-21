@@ -43,5 +43,15 @@ export const Projectdata =[
         tags: ["bootstrap","react"],
         github: "https://github.com/ksyp-7/Youtube-Clone/blob/master/youtube/package.json",
         image: require('./../Body/assest/y2.jpg')
+    },
+    {
+        id: 5,
+        title: 'Admin Dashboard',
+        about: `Admin Dashboard With Diffrent Widgets, Interactive Charts, Progress Bar and Custom Table.
+        Admin can select, search, filter and sort on Table Data. 2 Diffrent Themes.
+        The Stack use are MatrialUI, react-circular-progressbar, react-router-dom, sass`,
+        tags: ["MatrialUI","react"],
+        github: "https://github.com/ksyp-7/admin",
+        image: require('./../Body/assest/admin.png')
     }
 ]
